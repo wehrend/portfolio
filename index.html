@@ -6,9 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
   </head>
-  <body>
+  <body class="bg-slate-950 text-white">
+    <div class="container mx-auto text-left mt-20 lg:mt-32 px-6">
+      <div class="grid lg:grid-cols-2 gap-20">
+        <div>
+          <img
+            src="profile_picture.png"
+            alt="Sven Wehrend"
+            class="rounded-full object-cover h-20 w-20 lg:h-24 lg:w-24"
+          />
+          <h2 class="text-lg mt-4 lg:mt-6 lg:text-2xl">
+            Hallo, Ich bin <span class="font-bold">Sven Wehrend</span>.
+          </h2>
+          <h1 class="text-4xl mt-4 lg:mt-6 lg:text-6xl">
+            Ihr neuer </br>
+            <span
+              class="font-bold bg-linear-to-r from-violet-700 to-blue-500 text-transparent bg-clip-text"
+              >Fullstack-Developer</span
+            >.
+          </h1>
+          <p class="mt-6 lg:mt-8 text-slate-400 lg:text-lg">
+            Mein Name ist Sven Wehrend und ich bin Softwareentwickler 
+            mit Schwerpunkt auf den Bereich Backend Web Development aus der Stadt Berlin.</p>
+        </div>
+      </div>
+    </div>
     <div id="app"></div>
-    <div class="text-red-500">HALLO</div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
