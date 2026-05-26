@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 850" width="100%" height="100%" style="background: #000000;">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="70" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  <g opacity="0.5" filter="url(#glow)">
+    <path d="M 350 100 Q 750 -80 950 200 T 850 750 Q 550 850 450 550 Z" fill="#0d1b2a" />
+    <path d="M 450 120 Q 850 30 900 380 T 650 780 Q 420 700 380 480 Z" fill="#1b4965" opacity="0.6" />
+    
+    <path d="M 120 380 Q 80 200 320 320 T 580 680 Q 280 850 150 720 Z" fill="#064e3b" />
+    <path d="M 220 420 Q 180 320 380 380 T 500 620 Q 280 750 180 620 Z" fill="#14532d" opacity="0.7" />
+  </g>
+
+  <g filter="url(#shadow)">
+    <circle cx="150" cy="250" r="100" fill="#ffffff" opacity="0.12" />
+    <image href="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" x="80" y="170" width="140" height="140"/>
+  </g>
+  
+  <g filter="url(#shadow)">
+    <circle cx="450" cy="200" r="110" fill="#ffffff" opacity="0.12" />
+    <image href="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" x="375" y="120" width="150" height="150"/>
+  </g>
+  
+  <g filter="url(#shadow)">
+    <circle cx="750" cy="280" r="115" fill="#ffffff" opacity="0.12" />
+    <image href="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" x="685" y="215" width="130" height="130"/>
+  </g>
+  
+  <g filter="url(#shadow)">
+    <circle cx="360" cy="540" r="110" fill="#ffffff" opacity="0.12" />
+    <image href="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg" x="290" y="470" width="140" height="140"/>
+  </g>
+  
+  <g filter="url(#shadow)">
+    <circle cx="650" cy="610" r="110" fill="#ffffff" opacity="0.12" />
+    <image href="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" x="585" y="545" width="130" height="130"/>
+  </g>
+  
+  <g filter="url(#shadow)">
+    <circle cx="190" cy="700" r="115" fill="#ffffff" opacity="0.12" />
+    <image href="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" x="110" y="620" width="160" height="160"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <circle cx="840" cy="540" r="110" fill="#ffffff" opacity="0.12" />
+    <image href="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" x="770" y="470" width="140" height="140"/>
+  </g>
+
+</svg>
