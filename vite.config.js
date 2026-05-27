@@ -3,6 +3,8 @@ import tailwindcss from "@tailwindcss/vite";
 import { resolve } from "path";
 
 export default defineConfig({
+  // Base-Path für die Bereitstellung unter https://wehrend.github.io/portfolio/
+  base: "/portfolio/",
   plugins: [tailwindcss()],
   build: {
     rollupOptions: {
