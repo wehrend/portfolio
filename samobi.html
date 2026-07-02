@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="de" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - SAMOBI</title>
+  </head>
+  <body class="bg-slate-950 text-white">
+    <header
+      class="border-b border-slate-900 sticky top-0 bg-slate-950/80 backdrop-blur-md z-50"
+    >
+      <div
+        class="container mx-auto flex items-center justify-between py-4 px-6"
+      >
+        <a
+          href="./index.html"
+          class="flex items-center gap-2 text-sm font-medium text-slate-300 hover:text-white transition"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-5 h-5"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
+            />
+          </svg>
+          Zurück zum Portfolio
+        </a>
+        <span
+          class="font-bold text-lg tracking-wide bg-linear-to-r from-violet-700 to-blue-500 text-transparent bg-clip-text"
+        >
+          Sven Wehrend
+        </span>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <div class="container mx-auto text-left mt-20 lg:mt-32 px-6">
+      <p class="text-sm font-medium uppercase tracking-widest text-slate-500">
+        Projekt
+      </p>
+      <h1 class="text-4xl mt-4 lg:mt-6 lg:text-6xl font-bold">
+        <span
+          class="bg-linear-to-r from-violet-700 to-blue-500 text-transparent bg-clip-text"
+          >SAMOBI</span
+        >
+      </h1>
+      <!-- TODO: Kurzbeschreibung ersetzen -->
+      <p class="mt-6 lg:mt-8 text-slate-400 lg:text-lg max-w-3xl">
+        Das SAMOBI Projekt ist ein Videospiel zur analyse von Situational
+        Awareness (SA) in psychological video games
+      </p>
+      <div class="flex gap-2 mt-6 flex-wrap">
+        <!-- TODO: Tech-Stack-Tags anpassen -->
+        <div class="rounded-xl bg-slate-700 px-2.5 py-1 text-xs">Unity</div>
+        <div class="rounded-xl bg-slate-700 px-2.5 py-1 text-xs">C#</div>
+      </div>
+    </div>
+
+    <!-- Screenshot / Hero-Bild -->
+    <div class="container mx-auto px-6 mt-16">
+      <!-- TODO: Screenshot unter projects/samobi.png ablegen (oder Pfad anpassen) -->
+      <img
+        src="projects/samobi.png"
+        alt="SAMOBI Screenshot"
+        class="w-full max-w-4xl aspect-video object-cover rounded-md lg:rounded-lg shadow-md"
+      />
+    </div>
+
+    <!-- Details -->
+    <div class="container mx-auto px-6 mt-24">
+      <div class="grid gap-10 md:grid-cols-2">
+        <div class="bg-slate-900 rounded-lg p-8">
+          <h3 class="text-2xl font-bold">Die Idee</h3>
+          <p class="text-slate-400 mt-4">
+            Auslöser war die Forschungsfrage der Situational Awareness
+          </p>
+        </div>
+        <div class="bg-slate-900 rounded-lg p-8">
+          <h3 class="text-2xl font-bold">Die Umsetzung</h3>
+          <p class="text-slate-400 mt-4">
+            Hierbei kommmen die populäre Unity Engine mit ihrer
+            Programmiersprache C# zu Anwendung
+          </p>
+        </div>
+        <div class="bg-slate-900 rounded-lg p-8">
+          <h3 class="text-2xl font-bold">Funktionen</h3>
+          <p class="text-slate-400 mt-4">
+            Das Video-Spiel besteht aus herumfliegenden grünen Bällen die es mit
+            den Vive Controllern zu treffen gilt, während es die roten zu
+            vermeiden gilt.
+          </p>
+        </div>
+        <div class="bg-slate-900 rounded-lg p-8">
+          <h3 class="text-2xl font-bold">Mein Beitrag</h3>
+          <p class="text-slate-400 mt-4">
+            Meine Aufgabe war in diesem Fall die Umsetzung des "Spiels" in C#
+            und Unity.
+          </p>
+        </div>
+      </div>
+
+      <!-- TODO: Links anpassen oder entfernen -->
+      <div class="flex flex-wrap gap-4 mt-12">
+        <a
+          href="https://github.com/wehrend/Ninja"
+          target="_blank"
+          class="text-sm lg:text-base font-medium bg-blue-600 hover:bg-blue-500 rounded-lg px-5 py-3 flex items-center justify-center"
+          >Code ansehen
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            class="w-5 h-5 ml-2 -mr-1"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+            />
+          </svg>
+        </a>
+        <a
+          href="#"
+          target="_blank"
+          class="text-sm lg:text-base font-medium border border-slate-700 hover:border-slate-500 transition rounded-lg px-5 py-3 flex items-center justify-center"
+          >Live-Demo
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            class="w-5 h-5 ml-2 -mr-1"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Kontakt-Teaser -->
+    <div
+      class="bg-slate-900 container mx-auto px-6 lg:px-10 text-center my-24 py-10 lg:py-14 lg:rounded-lg"
+    >
+      <h2 class="text-3xl font-bold">Noch Fragen zu SAMOBI?</h2>
+      <p class="text-slate-300 mt-4 lg:mt-8 lg:text-lg">
+        Ich erzähle gerne mehr über das Projekt – schreiben Sie mir einfach.
+      </p>
+      <div class="flex justify-center">
+        <a
+          href="mailto:sven.wehrend@gmail.com"
+          class="mt-8 lg:mt-12 text-sm lg:text-base font-medium bg-blue-600 hover:bg-blue-500 rounded-lg px-5 py-3 flex items-center justify-center"
+        >
+          Kontakt aufnehmen
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-5 h-5 ml-2 -mr-1"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div
+      class="bg-slate-900 px-6 text-center mt-40 lg:mt-0 py-4 text-slate-400 text-sm"
+    >
+      <a href="./impressum.html" class="mr-4">Impressum</a>
+      <span>&copy; Sven Wehrend 2026</span>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

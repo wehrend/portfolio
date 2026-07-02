@@ -12,6 +12,8 @@ export default defineConfig({
         // Hier definierst du die Einstiegspunkte für deine Seiten
         main: resolve(__dirname, "index.html"),
         impressum: resolve(__dirname, "impressum.html"),
+        odoo: resolve(__dirname, "odoo.html"),
+        samobi: resolve(__dirname, "samobi.html"),
       },
     },
   },

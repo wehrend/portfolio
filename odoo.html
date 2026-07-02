@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="de" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Odoo</title>
+  </head>
+  <body class="bg-slate-950 text-white">
+
+    <header class="border-b border-slate-900 sticky top-0 bg-slate-950/80 backdrop-blur-md z-50">
+      <div class="container mx-auto flex items-center justify-between py-4 px-6">
+        <a href="./index.html" class="flex items-center gap-2 text-sm font-medium text-slate-300 hover:text-white transition">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+          </svg>
+          Zurück zum Portfolio
+        </a>
+        <span class="font-bold text-lg tracking-wide bg-linear-to-r from-violet-700 to-blue-500 text-transparent bg-clip-text">
+          Sven Wehrend
+        </span>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <div class="container mx-auto text-left mt-20 lg:mt-32 px-6">
+      <p class="text-sm font-medium uppercase tracking-widest text-slate-500">Schwerpunkt</p>
+      <h1 class="text-4xl mt-4 lg:mt-6 lg:text-6xl font-bold">
+        <span class="bg-linear-to-r from-violet-700 to-blue-500 text-transparent bg-clip-text">Odoo</span>-Entwicklung
+      </h1>
+      <p class="mt-6 lg:mt-8 text-slate-400 lg:text-lg max-w-3xl">
+        Odoo ist mein zentrales Werkzeug für Business-Software: vom maßgeschneiderten Modul
+        über Workflows und Wizards bis hin zum Owl-Frontend. Auf dieser Seite finden Sie
+        einen Überblick über meine professionellen Odoo-Implementierungen sowie meine
+        frei einsehbaren Odoo-Module auf GitHub.
+      </p>
+      <div class="flex gap-2 mt-6 flex-wrap">
+        <div class="rounded-xl bg-slate-700 px-2.5 py-1 text-xs">Odoo</div>
+        <div class="rounded-xl bg-slate-700 px-2.5 py-1 text-xs">Python</div>
+        <div class="rounded-xl bg-slate-700 px-2.5 py-1 text-xs">XML Views</div>
+        <div class="rounded-xl bg-slate-700 px-2.5 py-1 text-xs">Odoo Owl</div>
+        <div class="rounded-xl bg-slate-700 px-2.5 py-1 text-xs">Wizards</div>
+        <div class="rounded-xl bg-slate-700 px-2.5 py-1 text-xs">Workflows</div>
+      </div>
+    </div>
+
+    <!-- Professionelle Implementierungen -->
+    <div class="container mx-auto px-6 mt-24">
+      <h2 class="text-3xl lg:text-4xl font-bold">Professionelle Implementierungen</h2>
+      <div class="mt-12 grid gap-10 md:grid-cols-2">
+        <div class="bg-slate-900 rounded-lg p-8">
+          <h3 class="text-2xl font-bold">Testopia-Klon für eemagine GmbH</h3>
+          <p class="text-slate-400 mt-4">
+            Nachbau der Test-Management-Software Testopia als Odoo-Anwendung:
+            Verwaltung von Testplänen, Testfällen und Testläufen – vollständig
+            integriert in die bestehende Odoo-Umgebung der eemagine GmbH.
+          </p>
+          <div class="flex gap-2 mt-6 flex-wrap">
+            <div class="rounded-xl bg-slate-700 px-2.5 py-1 text-xs">Odoo</div>
+            <div class="rounded-xl bg-slate-700 px-2.5 py-1 text-xs">Python</div>
+            <div class="rounded-xl bg-slate-700 px-2.5 py-1 text-xs">Test-Management</div>
+          </div>
+        </div>
+        <div class="bg-slate-900 rounded-lg p-8">
+          <h3 class="text-2xl font-bold">BWA für tec-connect GmbH</h3>
+          <p class="text-slate-400 mt-4">
+            Eine Betriebswirtschaftliche Analyse / Auswertung (BWA) direkt in Odoo:
+            betriebswirtschaftliche Kennzahlen ohne Umweg über externe Tools,
+            aufbereitet aus den Buchhaltungsdaten des Unternehmens.
+          </p>
+          <div class="flex gap-2 mt-6 flex-wrap">
+            <div class="rounded-xl bg-slate-700 px-2.5 py-1 text-xs">Odoo</div>
+            <div class="rounded-xl bg-slate-700 px-2.5 py-1 text-xs">Python</div>
+            <div class="rounded-xl bg-slate-700 px-2.5 py-1 text-xs">Accounting / Reporting</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Open-Source-Module -->
+    <div class="container mx-auto px-6 mt-24 pb-8">
+      <h2 class="text-3xl lg:text-4xl font-bold">Odoo-Module auf GitHub</h2>
+      <p class="text-slate-400 mt-4 lg:text-lg max-w-3xl">
+        Diese Module habe ich als frei einsehbare Beispiele meiner Arbeitsweise veröffentlicht –
+        vom Backend-Workflow bis zum Owl-Frontend.
+      </p>
+
+      <div class="mt-16 grid gap-y-20 gap-x-10 md:grid-cols-2">
+
+        <div class="flex flex-col items-start text-left">
+          <img src="projects/odoo_weather_integration.png" alt="Odoo Modul: Project Wetter Koordination" class="w-full aspect-video object-cover rounded-md lg:rounded-lg shadow-md">
+          <h3 class="text-2xl lg:text-3xl font-bold mt-6 lg:mt-8">Project Wetter Koordination</h3>
+          <p class="text-slate-400 mt-4">
+            Diese Odoo-App erlaubt das wetterabhängige Steuern von Projekten:
+            Wird am Standort des Kunden schlechtes Wetter prognostiziert,
+            reagiert die Projektplanung automatisch.
+          </p>
+          <div class="flex gap-2 mt-4 lg:mt-6 flex-wrap">
+            <div class="rounded-xl bg-slate-700 px-2.5 py-1 text-xs">Odoo</div>
+            <div class="rounded-xl bg-slate-700 px-2.5 py-1 text-xs">Python</div>
+            <div class="rounded-xl bg-slate-700 px-2.5 py-1 text-xs">WeatherAPI</div>
+          </div>
+          <a href="https://github.com/wehrend/project_weather_coordination" target="_blank" class="mt-6 lg:mt-8 text-sm lg:text-base font-medium bg-blue-600 hover:bg-blue-500 rounded-lg px-5 py-3 flex items-center justify-center">Code ansehen
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5 ml-2 -mr-1">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+          </a>
+        </div>
+
+        <div class="flex flex-col items-start text-left">
+          <img src="projects/pricelist_update_wizard.png" alt="Odoo Modul: Preislisten Update" class="w-full aspect-video object-cover rounded-md lg:rounded-lg shadow-md">
+          <h3 class="text-2xl lg:text-3xl font-bold mt-6 lg:mt-8">Preislisten Update</h3>
+          <p class="text-slate-400 mt-4">
+            Dieses Odoo-Modul schließt eine Lücke in der Preislisten-Aktualisierung:
+            Ohne den Umweg über Excel-Export und -Import können Preislisten
+            per Wizard direkt in Odoo aktualisiert werden.
+          </p>
+          <div class="flex gap-2 mt-4 lg:mt-6 flex-wrap">
+            <div class="rounded-xl bg-slate-700 px-2.5 py-1 text-xs">Odoo</div>
+            <div class="rounded-xl bg-slate-700 px-2.5 py-1 text-xs">Python</div>
+            <div class="rounded-xl bg-slate-700 px-2.5 py-1 text-xs">Odoo Wizard</div>
+          </div>
+          <a href="https://github.com/wehrend/pricelist_update_wizard" target="_blank" class="mt-6 lg:mt-8 text-sm lg:text-base font-medium bg-blue-600 hover:bg-blue-500 rounded-lg px-5 py-3 flex items-center justify-center">Code ansehen
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5 ml-2 -mr-1">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+          </a>
+        </div>
+
+        <div class="flex flex-col items-start text-left">
+          <img src="projects/owl_kanban_board.png" alt="Odoo Modul: Owl Kanban Board" class="w-full aspect-video object-cover rounded-md lg:rounded-lg shadow-md">
+          <h3 class="text-2xl lg:text-3xl font-bold mt-6 lg:mt-8">Owl Kanban Board</h3>
+          <p class="text-slate-400 mt-4">
+            Eine Demo für das Owl-Frontend von Odoo: ein simples Kanban-Board
+            mit HTML-5-Drag'n-Drop – ideal, um moderne Odoo-Frontend-Entwicklung
+            zu zeigen.
+          </p>
+          <div class="flex gap-2 mt-4 lg:mt-6 flex-wrap">
+            <div class="rounded-xl bg-slate-700 px-2.5 py-1 text-xs">Odoo</div>
+            <div class="rounded-xl bg-slate-700 px-2.5 py-1 text-xs">Odoo Owl</div>
+            <div class="rounded-xl bg-slate-700 px-2.5 py-1 text-xs">HTML 5 Drag'n Drop</div>
+          </div>
+          <a href="https://github.com/wehrend/kanban_board" target="_blank" class="mt-6 lg:mt-8 text-sm lg:text-base font-medium bg-blue-600 hover:bg-blue-500 rounded-lg px-5 py-3 flex items-center justify-center">Code ansehen
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5 ml-2 -mr-1">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+          </a>
+        </div>
+
+        <div class="flex flex-col items-start text-left">
+          <img src="projects/sales_margin_guard.png" alt="Odoo Modul: Verkaufs Margen Schützer" class="w-full aspect-video object-cover rounded-md lg:rounded-lg shadow-md">
+          <h3 class="text-2xl lg:text-3xl font-bold mt-6 lg:mt-8">Verkaufs Margen Schützer</h3>
+          <p class="text-slate-400 mt-4">
+            Dieses Odoo-Modul schließt eine Lücke im Freigabeprozess bei niedrigen Margen:
+            Angebote mit zu geringer Marge können nur noch von Managern
+            freigegeben werden.
+          </p>
+          <div class="flex gap-2 mt-4 lg:mt-6 flex-wrap">
+            <div class="rounded-xl bg-slate-700 px-2.5 py-1 text-xs">Odoo</div>
+            <div class="rounded-xl bg-slate-700 px-2.5 py-1 text-xs">Python</div>
+            <div class="rounded-xl bg-slate-700 px-2.5 py-1 text-xs">Odoo Workflows</div>
+          </div>
+          <a href="https://github.com/wehrend/sales_margin_guard" target="_blank" class="mt-6 lg:mt-8 text-sm lg:text-base font-medium bg-blue-600 hover:bg-blue-500 rounded-lg px-5 py-3 flex items-center justify-center">Code ansehen
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5 ml-2 -mr-1">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Kontakt-Teaser -->
+    <div class="bg-slate-900 container mx-auto px-6 lg:px-10 text-center my-24 py-10 lg:py-14 lg:rounded-lg">
+      <h2 class="text-3xl font-bold">Odoo-Projekt geplant?</h2>
+      <p class="text-slate-300 mt-4 lg:mt-8 lg:text-lg">
+        Ob individuelles Modul, Anpassung bestehender Apps oder eine komplette
+        Implementierung – zögern Sie nicht, mich zu kontaktieren.
+      </p>
+      <div class="flex justify-center">
+        <a href="mailto:sven.wehrend@gmail.com" class="mt-8 lg:mt-12 text-sm lg:text-base font-medium bg-blue-600 hover:bg-blue-500 rounded-lg px-5 py-3 flex items-center justify-center">
+          Kontakt aufnehmen
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 ml-2 -mr-1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="bg-slate-900 px-6 text-center mt-40 lg:mt-0 py-4 text-slate-400 text-sm">
+      <a href="./impressum.html" class="mr-4">Impressum</a>
+      <span>&copy; Sven Wehrend 2026</span>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
